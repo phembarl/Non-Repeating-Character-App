@@ -1,0 +1,52 @@
+body{
+	font-family: sans-serif;
+}
+
+#app{
+	margin-top:15%;
+	text-align: center;
+}
+
+h1{
+	font-size: 50px;
+	color: #007bff;
+}
+
+h2{
+	color: #007bff;
+}
+
+#error{
+	color: red;
+}
+
+.input-field{
+	font-size: 30px;
+	border-radius: 10px;
+	border: 1px solid #eaeae1;
+	outline: none;
+}
+
+#input{
+	padding-left: 10px;
+}
+
+input::placeholder{
+	opacity: .5;
+}
+
+#submit{
+	cursor: pointer;
+	background-color: #007bff;
+	opacity: .8;
+	border: none;
+	color: #fff;
+}
+
+#submit:hover{
+	opacity: 1;
+}
+
+#submit:focus, #submit.focus{
+	box-shadow: 0 0 0 0.5px rgba(0, 123, 255, 0.5);
+}
